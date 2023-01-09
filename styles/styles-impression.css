@@ -1,0 +1,19 @@
+#conteneur_ticket_generale
+{
+	width: 350px;
+	min-height: 450px;
+	height: auto;
+	font-size: 18px;
+}
+
+
+#ticket_tableau
+{
+	width: 350px;
+	min-height: 450px;
+	height: auto;
+	float: left;
+	display: block;
+	font-size: medium;
+}
+

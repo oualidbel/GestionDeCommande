@@ -1,0 +1,265 @@
+
+body
+{
+	background-color: #8D8C8C;
+	background-image: url("../images/icone/bg.png");
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+#menu
+{
+	width: 90%;
+	height: 50px;
+	margin: auto;
+	padding: 0;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+
+
+}
+#menu ul
+{
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	padding: 0;
+}
+#menu ul li
+{
+	width: 14.285%;
+	height: 50px;
+	margin: auto;
+	float: left;
+	background-color: #F0E649;
+	list-style: none;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+
+}
+
+#menu ul li:hover
+{
+	cursor: pointer;
+	position: relative;
+	bottom: 5px;
+}
+#conteneur_generale
+{
+	width : 90%;
+	min-height: 1100px;
+	height: auto;
+	padding: 0;
+	margin: auto;
+	background-color: #393A39;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+#conteneur_articles_gauche
+{
+	width : 70%;
+	height: 1000px;
+	background-image: url("../images/icone/bgsodrive.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	float: left;
+	overflow: scroll;
+
+
+}
+.boite_article
+{
+	width: 173px;
+	height: 185px;
+	background-color: white;
+	margin-left: 5px ;
+	margin-top: 5px ;
+	padding: 0;
+	float: left;
+	border-style:solid;
+	border-width: 2px;
+	color: black;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+	border-radius: 10px;
+
+
+}
+.boite_article:hover
+{
+	position: relative;
+	bottom:10px;
+	cursor: pointer;
+}
+.boite_article:hover .entete_article
+{
+	background-color: #8D8C8C;
+	color: white;
+}
+.boite_article img
+{
+	border-radius: 10px;
+}
+
+.entete_article
+{
+	width: 173px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	background-color: yellow;
+	border-bottom: solid;
+	border-width: 2px;
+	border-radius: 10px 10px 0px 0px;
+	font: bold;
+}
+#conteneur_liste_commandes_droite
+{
+	width: 30%;
+	height: 830px;
+	background-color: #F0E649;
+	overflow: scroll;
+	float: left;
+	overflow-x: hidden; 
+}
+
+.boite_article_commande_en_cours
+{
+	width: 99%;
+	min-height: 70px;
+	height: auto;
+	background-color: white;
+	margin-top: 5px ;
+	line-height: 20px;
+	padding: 0;
+	display: inline-block;
+}
+#boite_numero_de_commande
+{
+	width: 99%;
+	min-height: 80px;
+	height: auto;
+	margin-top: 5px ;
+	line-height: 20px;
+	padding: 0;
+	text-align: center;
+}
+.boite_article_commande_en_cours:hover
+{
+	cursor: pointer;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.imageArticleCommandeEnCours
+{
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+.imageSupprimerArticleCommandeEnCours
+{
+	height: 70px;
+	width: 70px;
+	float: right;
+	margin-top: 10px;
+}
+.boitesErreurFormulaire
+{
+	width: 350px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: red;
+	color: white;
+	margin-top: 50px;
+	margin: auto;
+	padding: 0;
+}
+#barreCrudite
+{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #393A39;
+	float: right;
+	color: white;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7), -1px 2px 20px rgba(255, 255, 255, 0.3) inset; 
+}
+#barreCrudite select
+{
+	display: none;
+}
+#boite_total
+{
+	width: 30%;
+	height: 170px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+#boite_total button
+{
+	width: 150px;
+	height: 30px;
+}
+#formulaireMenu
+{
+	width: 100%;
+	height: 30px;
+	display: inline;
+}
+.prixBoiteCommandeEnCours
+{
+	width: 150px;
+	height: 70px;
+	float: left;
+}
+#basDePage
+{
+	width: 500px;
+	height:50px;
+	color: white;
+	margin: auto;
+	line-height: 60px;
+}
+.boiteRecapCommande
+{
+	width: 400px;
+	height: 500px;
+	margin-left: 10px;
+	margin-top: 20px;
+	overflow:scroll;
+	overflow-x: hidden; 
+	background-color: white;
+	float: left;
+}
+.boite_numero_de_commande 
+{
+	width: 99%;
+	min-height: 80px;
+	height: auto;
+	background-color: white;
+	margin-top: 5px ;
+	line-height: 20px;
+	padding: 0;
+}
+
+#conteneur_ticket_generale
+{
+	width: 400px;
+	min-height: 450px;
+	height: auto;
+	border-style: solid;
+}
+
+#ticket_colonne_droite
+{
+	width: 100px;
+	min-height: 450px;
+	height: auto;
+}
