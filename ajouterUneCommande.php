@@ -309,7 +309,7 @@
 				<button onclick="validationCommande();">Valider la commande</button>
 			</div>
 
-			<div id="basDePage">©Copyright propriété de SAS Bm Burger (Crée par Boussenna Oussama)</div>
+			<div id="basDePage">©Copyright propriété de SAS Bm Burger (Crée par Oualid.B et Oussama.B)</div>
 			
 		</div>
 
